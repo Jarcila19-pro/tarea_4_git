@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal - Mi Proyecto Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a Mi Portafolio</h1>
+            <p class="subtitle">Desarrollador Web | Diseñador | Creativo</p>
+            <button class="btn-primary">Conoce mi trabajo</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Soy un apasionado del desarrollo web con experiencia en crear sitios modernos y funcionales. Me especializo en HTML, CSS y JavaScript, siempre buscando aprender nuevas tecnologías.</p>
+                        <p>Mi objetivo es crear experiencias digitales que sean tanto estéticamente agradables como altamente funcionales.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Habilidades</h3>
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Diseño Responsivo</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">Proyecto 1</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sitio Web Corporativo</h3>
+                            <p>Desarrollo de página web moderna para empresa con diseño responsivo y animaciones.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">Proyecto 2</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Landing Page</h3>
+                            <p>Página de aterrizaje para producto con formulario de contacto integrado.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img">Proyecto 3</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Fotográfico</h3>
+                            <p>Galería interactiva con efectos de hover y lightbox personalizado.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje aquí..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="info-item">
+                            <strong>Email:</strong> contacto@miportafolio.com
+                        </div>
+                        <div class="info-item">
+                            <strong>Teléfono:</strong> +57 123 456 7890
+                        </div>
+                        <div class="info-item">
+                            <strong>Ubicación:</strong> Manizales, Colombia
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+            <p>Desarrollado con ❤️ en Colombia</p>
+        </div>
+    </footer>
+</body>
+</html>
